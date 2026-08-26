@@ -185,9 +185,21 @@ The filtered results are then displayed using a `RecyclerView` and a custom adap
 
 ## 📸 Screenshots
 
-### Home Screen
+### 🏠 Home
 
-[Uploading WhatsApp Image 2026-08-26 at 11.28.38 PM.jpeg…]()
+![Home Screen](screenshots/Home.png)
+
+### 🔍 Search
+
+![Search Screen](screenshots/Search.png)
+
+### 🛒 Cart
+
+![Cart Screen](screenshots/Cart.png)
+
+### 🔎 Search View
+
+![Search View](screenshots/SearchView.png)
 
 ## 👩‍💻 Author
 
