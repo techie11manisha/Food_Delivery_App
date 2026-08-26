@@ -187,19 +187,19 @@ The filtered results are then displayed using a `RecyclerView` and a custom adap
 
 ### 🏠 Home
 
-![Home Screen](screenshots/Home.png)
+![Home Screen](screenshots/Home.jpeg)
 
 ### 🔍 Search
 
-![Search Screen](screenshots/Search.png)
+![Search Screen](screenshots/Search.jpeg)
 
 ### 🛒 Cart
 
-![Cart Screen](screenshots/Cart.png)
+![Cart Screen](screenshots/Cart.jpeg)
 
 ### 🔎 Search View
 
-![Search View](screenshots/SearchView.png)
+![Search View](screenshots/SearchView.jpeg)
 
 ## 👩‍💻 Author
 
