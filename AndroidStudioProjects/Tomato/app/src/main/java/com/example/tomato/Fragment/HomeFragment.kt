@@ -9,6 +9,7 @@ import android.widget.Toast
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.interfaces.ItemClickListener
 import com.denzcoskun.imageslider.models.SlideModel
+import com.example.tomato.MenuBottomSheetFragment
 import com.example.tomato.R
 import com.example.tomato.adapter.PopularAdapter
 import com.example.tomato.databinding.FragmentHomeBinding
@@ -29,7 +30,10 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentHomeBinding.inflate(inflater, container, false)
 
-
+        binding.viewAllMenu.setOnClickListener {
+            val bottomSheetDialog = MenuBottomSheetFragment()
+            bottomSheetDialog.show(parentFragmentManager, "Test")
+        }
         val imageList = ArrayList<SlideModel>()
         imageList.add(SlideModel(R.drawable.banner1, ScaleTypes.FIT))
         imageList.add(SlideModel(R.drawable.banner1, ScaleTypes.FIT))
